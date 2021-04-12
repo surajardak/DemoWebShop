@@ -1,0 +1,70 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Suraj Ardak"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Session is get stored or not",
+        "description": "",
+        "id": "login-functionality;session-is-get-stored-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9837239300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on the login page",
+            "match": {
+              "location": "Login.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3222939900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters the valid email and password and user check remember me option",
+            "match": {
+              "location": "Login.user_enters_the_valid_email_and_password_and_user_check_remember_me_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14700077500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login should be stored even browser is closed and opened again",
+            "match": {
+              "location": "Login.login_should_be_stored_even_browser_is_closed_and_opened_again()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@RememberMe"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login/Login.feature"
+  }
+]
